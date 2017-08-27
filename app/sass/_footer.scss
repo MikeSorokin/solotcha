@@ -26,7 +26,8 @@
 			border-bottom-color: #174730;
 		}
 		&:visited,&:focus{
-			opacity: .5;
+			color: #647375;
+			border-bottom-color: #647375;
 		}
 	}
 	.copy{
@@ -34,6 +35,19 @@
 		text-align: left;
 		span{
 			display: block;
+		}
+	}
+}
+@media screen and (max-width: 1000px){
+	.footer{
+		padding: 30px 0;
+		text-align: left;
+		&:before{
+			content: none;
+		}
+		.copy{
+			float: none;
+			padding-bottom: 40px;
 		}
 	}
 }

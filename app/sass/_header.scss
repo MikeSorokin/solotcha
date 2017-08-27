@@ -23,6 +23,7 @@
 		float: left;
 		a{
 			color: #332117;
+			border: 0;
 			&:hover{
 				text-decoration: none;
 			}
@@ -41,6 +42,7 @@
 	width:170px;
 	height:138px;
 	z-index: 20;
+
 }
 .logo a{
 	line-height: 0;
@@ -51,4 +53,28 @@
 	height: 100%;
 	outline: none;
 	background: url(../images/logo.png) no-repeat;
+	border: 0;
+}
+@media screen and (max-width: 1000px) {
+	.header{
+		height: auto;
+		text-align: center;
+		padding: 10px 0 20px;
+		.logo{
+			position: static;
+			display: block;
+			transform:none;
+			margin: 0 auto;
+		}
+		&:after{
+			content: none;
+		}
+		.tell{
+			float: none;
+			display: block;
+			text-align: center;
+			font-size: 32px;
+			padding-bottom: 10px;
+		}
+	}
 }

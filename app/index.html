@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>#</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="css/libs.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/all.css" />
 </head>
@@ -11,9 +12,9 @@
 	<div class="wrapper">
 		<div class="header">
 			<div class="center">
-				<strong class="logo"><a href="#">logo</a></strong>
+				<strong class="logo"><a data-fancybox="modal" data-src="#sps" href="javascript:;">logo</a></strong>
 				<span class="tell"><a href="tel:+7 (4912) 90-15-80">+7 (4912) 90-15-80</a></span>
-				<a href="#" class="btn-transparent">Заказать звонок</a>
+				<a data-fancybox="modal" data-src="#modal" href="javascript:;" class="btn-transparent">Заказать звонок</a>
 			</div>
 		</div>
 		<div class="main">
@@ -42,7 +43,7 @@
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="#" class="btn-green ">Получить полную презентацию посёлка</a>
+						<a data-fancybox="modal" data-src="#modal-loading" href="javascript:;" href="#" class="btn-green ">Получить полную презентацию посёлка</a>
 					</div>
 				</div>
 			</div>
@@ -54,14 +55,14 @@
 							<div class="ico-holder"><img src="images/safety.svg" width="79" height="95" alt=""></div>
 							<div class="columnn">
 								<h3><span>Безопасность</span></h3>
-								<div class="holder"><p>Территория поностью огорожена. Пропускная система и пост охраны.</p></div>
+								<div class="holder"><p>Территория поностью огорожена. Пропускная система и пост <a href="#">охраны</a>.</p></div>
 							</div>
 						</div>
 						<div class="col3">
 							<div class="ico-holder"><img src="images/sandbox.svg" width="94" height="96" alt=""></div>
 							<div class="columnn">
 								<h3><span>Детские площадки</span></h3>
-								<div class="holder"><p>Современные площадки для самых маленьких жителей посёлка</p></div>
+								<div class="holder"><p>Современные площадки для самых маленьких жителей <a href="#2">посёлка</a></p></div>
 							</div>
 						</div>
 						<div class="col3">
@@ -164,12 +165,48 @@
 					<span>© 2017 «Лукоморье»</span>
 					<span><a href="mailto:62solotcha@gmail.com">62solotcha@gmail.com</a></span>
 				</div>
-				<div class="made"><a href="#">Создание сайта</a> – студия «Элемент»</div>
+				<div class="made"><a href="#4">Создание сайта</a> – студия «Элемент»</div>
 			</div>
 		</div>
 	</div>
+	<div id="modal" class="fancy-modal text-center" style="display: none;">
+		<h2>Получите полную презентацию!</h2>
+		<p>Пожалуйста, заполните все поля, и мы отправим вам прайс-лист и презентацию посёлка «Лукоморье»</p>
+		<form action="#">
+			<div class="row-field has-error">
+				<input type="text" placeholder="Имя" class="field-txt">
+				<span class="message">Please submit all fields!</span>
+			</div>
+			<div class="row-field has-valid">
+				<input type="text" placeholder="Телефон" class="field-txt">
+				<span class="message">Please submit all fields!</span>
+			</div>
+			<div class="row-field">
+				<input type="text" placeholder="E-mail" class="field-txt">
+				<span class="message">Please submit all fields!</span>
+			</div>
+			<div class="row-checkbox">
+				<input type="checkbox" id="test1" />
+   				<label for="test1">Соглашаюсь с обработкой <a href="#88">персональных данных</a></label>
+			</div>
+			<div class="row-btn">
+				<a href="#" class="btn-green">Получить презентацию</a>
+			</div>
+		</form>
+	</div>
+	<div id="modal-loading"  class="fancy-modal text-center" style="display: none;">
+		<h2>Идёт оправка...</h2>
+		<div class="spinner">
+			<img src="images/spinner.gif"  alt="">
+		</div>
+	</div>
+	<div id="sps"  class="fancy-modal text-center" style="display: none;">
+		<h2>Благодарим за обращение!</h2>
+		<p>Мы отправили вам прайс-лист и презентацию посёлка «Лукоморье»</p>
+	</div>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "bambini_trend",
+  "name": "solotcha",
   "version": "1.0.0",
   "description": "markup",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "DavidHalkin"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/DavidHalkin/bambini_trend",
+  "homepage": "https://github.com/DavidHalkin/solotcha.git",
   "dependencies": {
     "fancybox": "^3.1.20",
     "jquery": "^3.2.1",

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidHalkin/bambini_trend.git"
+    "url": "git+https://github.com/DavidHalkin/solotcha.git"
   },
   "author": "DavidHalkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DavidHalkin/bambini_trend/issues"
+    "url": "https://github.com/DavidHalkin/solotcha/issues"
   },
-  "homepage": "https://github.com/DavidHalkin/bambini_trend#readme",
+  "homepage": "https://github.com/DavidHalkin/solotcha#readme",
   "devDependencies": {
     "browser-sync": "latest",
     "del": "^3.0.0",

@@ -1,0 +1,39 @@
+.footer{
+	position: relative;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 65px;
+	background: #0a2124;
+	text-align: right;
+	color: #fff;
+	font:16px/23px 'helios-light';
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 30px;
+		background: url(../images/ellipse_down.svg) no-repeat 50% 0;
+		background-size:100% 30px;
+	}
+	a{
+		color: #fff;
+		border-bottom: 1px solid #3b4d50;
+		&:hover{
+			color: #4be15f;
+			text-decoration: none;
+			border-bottom-color: #174730;
+		}
+		&:visited,&:focus{
+			opacity: .5;
+		}
+	}
+	.copy{
+		float: left;
+		text-align: left;
+		span{
+			display: block;
+		}
+	}
+}

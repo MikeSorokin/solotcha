@@ -1,7 +1,54 @@
-#header{
-	background: #ccc;
+.header{
+	height: 100px;
+	background: #fff;
+	position: relative;
+	padding-bottom: 27px;
+	padding-top: 22px;
+	text-align: right;
+	z-index: 1;
+	&:after{
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform:translateX(-50%);
+		height: 86px;
+		width: 300px;
+		background: url(../images/logo_round.svg) no-repeat 50% 0;
+		background-size: cover;
+	}
+	.tell{
+		color: #332117;
+		font-size: 36px;
+		float: left;
+		a{
+			color: #332117;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+.logo{
+
+	background: url(../images/logo.png) no-repeat 50% 0;
+}
+.logo{
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform:translateX(-50%);
+	width:170px;
+	height:138px;
+	z-index: 20;
+}
+.logo a{
+	line-height: 0;
+	font-size: 0;
+	text-indent: -9999px;
 	overflow: hidden;
-	height: 210px;
-	width: 100%;
-	background: rgba(#ccc,.6);
+	display: block;
+	height: 100%;
+	outline: none;
+	background: url(../images/logo.png) no-repeat;
 }

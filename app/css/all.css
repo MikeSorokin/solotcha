@@ -216,7 +216,7 @@ article, aside, audio, canvas, datalist, details, figcaption, figure, footer, he
   left: 0;
   width: 100%;
   height: 32px;
-  background: red url(../images/ellipse_down.svg) no-repeat 50% 0;
+  background: url(../images/ellipse_down.svg) no-repeat 50% 0;
   -webkit-background-size: 100% 32px;
           background-size: 100% 32px;
 }
@@ -411,7 +411,7 @@ a:visited {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: red url(../images/ellipse_up.svg) no-repeat;
+  background: url(../images/ellipse_up.svg) no-repeat;
   -webkit-background-size: 100% 100% !important;
           background-size: 100% 100% !important;
   height: 32px;

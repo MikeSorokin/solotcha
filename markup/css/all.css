@@ -215,10 +215,10 @@ article, aside, audio, canvas, datalist, details, figcaption, figure, footer, he
   top: 0;
   left: 0;
   width: 100%;
-  height: 30px;
-  background: url(../images/ellipse_down.svg) no-repeat 50% 0;
-  -webkit-background-size: 100% 30px;
-          background-size: 100% 30px;
+  height: 32px;
+  background: red url(../images/ellipse_down.svg) no-repeat 50% 0;
+  -webkit-background-size: 100% 32px;
+          background-size: 100% 32px;
 }
 
 .footer a {
@@ -411,11 +411,12 @@ a:visited {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(../images/ellipse_up.svg) no-repeat 50% 0;
-  -webkit-background-size: 100% 27px;
-          background-size: 100% 27px;
-  height: 27px;
+  background: red url(../images/ellipse_up.svg) no-repeat;
+  -webkit-background-size: 100% 100% !important;
+          background-size: 100% 100% !important;
+  height: 32px;
   width: 100%;
+  display: block;
 }
 
 .promo-block .row {

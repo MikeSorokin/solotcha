@@ -399,7 +399,7 @@ a:visited {
 }
 
 .promo-block {
-  background: url(../images/heroimage.png) no-repeat 50% 0;
+  background: url(../images/heroimage.jpg) no-repeat 50% 0;
   -webkit-background-size: cover;
           background-size: cover;
   padding: 116px 0 102px;
@@ -612,7 +612,7 @@ a:visited {
 }
 
 .banner-text {
-  background: url(../images/location.png) no-repeat 50% 0;
+  background: url(../images/location.jpg) no-repeat 50% 0;
   -webkit-background-size: cover;
           background-size: cover;
   padding-top: 128px;

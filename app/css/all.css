@@ -1213,4 +1213,8 @@ a:visited {
     top: auto;
     bottom: 10px;
   }
+  .columnn h3 {
+    height: auto;
+    padding-bottom: 5px;
+  }
 }

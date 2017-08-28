@@ -117,7 +117,7 @@ gulp.task('scripts', function() {
 		'bower_components/jquery/dist/jquery.min.js', 
 		'bower_components/fancybox/dist/jquery.fancybox.min.js',
 		'bower_components/owl.carousel/dist/owl.carousel.min.js',
-		'bower_components/svgxuse/svgxuse.min.js'
+		'bower_components/wow/dist/wow.min.js'
 		])
 		// .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		// .pipe(uglify()) // Сжимаем JS файл
@@ -130,7 +130,8 @@ gulp.task('css-libs', ['sass'], function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/fancybox/dist/jquery.fancybox.min.css', 
 		'bower_components/owl.carousel/dist/assets/owl.carousel.css', 
-		'bower_components/owl.carousel/dist/assets/owl.theme.default.css' 
+		'bower_components/owl.carousel/dist/assets/owl.theme.default.css',
+		'bower_components/wow/css/libs/animate.css'
 		])
 		.pipe(cssnano())
 		.pipe(concat('libs.min.css')) // Собираем их в кучу в новом файле libs.min.css

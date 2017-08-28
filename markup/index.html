@@ -23,19 +23,19 @@
 					<h1>Продажа элитных земельных участков в Солотче от собственника в посёлке <span>«Лукоморье»</span></h1>
 					<h2>Отдыхайте и живите за городом уже сегодня!</h2>
 					<div class="row">
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="columnn">
 								<h3><span>Удобное расположение</span></h3>
 								<div class="holder"><p>20 минут от города Рязани</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="columnn">
 								<h3><span>Коммуникации</span></h3>
 								<div class="holder"><p>Предусмотрена электрификация, водо- и газоснабжение участков</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="columnn">
 								<h3><span>Выгодные условия покупки</span></h3>
 								<div class="holder"><p>Расрочка, ипотека, 100 % оплата наличными</p></div>
@@ -51,42 +51,42 @@
 				<div class="center">
 					<h2 class="heading"><span>Что вас ждёт в посёлке «Лукоморье»</span></h2>
 					<div class="row">
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="ico-holder"><img src="images/safety.svg" width="79" height="95" alt=""></div>
 							<div class="columnn">
 								<h3><span>Безопасность</span></h3>
 								<div class="holder"><p>Территория поностью огорожена. Пропускная система и пост <a href="#">охраны</a>.</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="ico-holder"><img src="images/sandbox.svg" width="94" height="96" alt=""></div>
 							<div class="columnn">
 								<h3><span>Детские площадки</span></h3>
 								<div class="holder"><p>Современные площадки для самых маленьких жителей <a href="#2">посёлка</a></p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="ico-holder"><img src="images/lamp.svg" width="94" height="96" alt=""></div>
 							<div class="columnn">
 								<h3><span>Действующие коммуникации</span></h3>
 								<div class="holder"><p>Водоснабжение, газоснабжение и электрификация участков</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="0.8s">
 							<div class="ico-holder"><img src="images/forest.svg" width="120" height="95" alt=""></div>
 							<div class="columnn">
 								<h3><span>Жизнь в лесу</span></h3>
 								<div class="holder"><p>Лесные прогулки, пение птиц, свежий воздух, грибы и ягоды — в шаге для жителей</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="1s">
 							<div class="ico-holder"><img src="images/wallet.svg" width="109" height="96" alt=""></div>
 							<div class="columnn">
 								<h3><span>Выгодные условия покупки</span></h3>
 								<div class="holder"><p>Ипотека, расрочка, 100% оплата наличными</p></div>
 							</div>
 						</div>
-						<div class="col3">
+						<div class="col3 wow fadeInUp" data-wow-delay="1.2s">
 							<div class="ico-holder"><img src="images/document.svg" width="77" height="95" alt=""></div>
 							<div class="columnn">
 								<h3><span>Документы</span></h3>
@@ -207,6 +207,24 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
+	</script>
 </body>
 </html>
